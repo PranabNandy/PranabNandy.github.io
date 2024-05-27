@@ -440,6 +440,16 @@ section .title::after{
 
 
 /* contact section styling */
+.contact{
+	display: flex;
+	background: url("images/thankyou.jpeg") no-repeat center;
+	background-size: 100% 100%;
+	height: 100vh;
+	color: #fff;
+	min-height: 500px;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
 .contact .contact-content .column{
 	width: calc(50% - 30px);
 }
